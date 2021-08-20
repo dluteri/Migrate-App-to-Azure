@@ -5,5 +5,6 @@
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
-    "appService.deploySubpath": "web"
+    "appService.deploySubpath": "web",
+    "appService.defaultWebAppToDeploy": "/subscriptions/fee92509-9f8a-4e9d-8be1-a9c00897e0b3/resourceGroups/learn-d71c7ebb-3f72-42b3-98fb-ac6aafbfbba9/providers/Microsoft.Web/sites/luteriwebapp"
 }

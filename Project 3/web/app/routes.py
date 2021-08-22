@@ -81,7 +81,7 @@ def notification():
             notification.status = 'Notified {} attendees'.format(len(attendees))
             db.session.commit()
             # TODO Call servicebus queue_client to enqueue notification ID
-
+            queue_client.send(Message('{}'.format(notification.id)))
             #################################################
             ## END of TODO
             #################################################

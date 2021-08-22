@@ -2,6 +2,7 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "",
-    "FUNCTIONS_WORKER_RUNTIME": "python"
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "luteriservicebus1_SERVICEBUS": "Endpoint=sb://luteriservicebus1.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=u/7WN8HhFW5wCR4uEAphZf4gSxzB75qnf6WVZqxibaI="
   }
 }

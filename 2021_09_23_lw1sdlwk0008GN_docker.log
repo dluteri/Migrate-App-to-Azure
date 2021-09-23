@@ -1,0 +1,11 @@
+2021-09-23T18:16:25.605Z INFO  - Starting container for site
+2021-09-23T18:16:25.605Z INFO  - docker run -d -p 1026:8000 --name luteriwebapp_0_205ec051 -e WEBSITE_SITE_NAME=luteriwebapp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=luteriwebapp.azurewebsites.net -e WEBSITE_INSTANCE_ID=d63a3f5da04e8e42da985b3ef8563b568aee5b5fea77cc9b086d9014f78061d0 -e HTTP_LOGGING_ENABLED=1 appsvc/python:3.8_20210709.2  
+
+2021-09-23T18:16:35.068Z INFO  - Initiating warmup request to container luteriwebapp_0_205ec051 for site luteriwebapp
+2021-09-23T18:16:50.795Z INFO  - Waiting for response to warmup request for container luteriwebapp_0_205ec051. Elapsed time = 15.7264398 sec
+2021-09-23T18:16:56.583Z INFO  - Container luteriwebapp_0_205ec051 for site luteriwebapp initialized successfully and is ready to serve requests.
+2021-09-23T18:17:52.196Z INFO  - Starting container for site
+2021-09-23T18:17:52.196Z INFO  - docker run -d -p 10007:8000 --name luteriwebapp_1_833b6a2d -e WEBSITE_SITE_NAME=luteriwebapp -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=luteriwebapp.azurewebsites.net -e WEBSITE_INSTANCE_ID=d63a3f5da04e8e42da985b3ef8563b568aee5b5fea77cc9b086d9014f78061d0 -e HTTP_LOGGING_ENABLED=1 appsvc/python:3.8_20210709.2  
+
+2021-09-23T18:17:58.141Z INFO  - Initiating warmup request to container luteriwebapp_1_833b6a2d for site luteriwebapp
+2021-09-23T18:18:11.891Z INFO  - Container luteriwebapp_1_833b6a2d for site luteriwebapp initialized successfully and is ready to serve requests.

@@ -1,0 +1,250 @@
+2021-09-23T18:16:36.760634902Z 
+2021-09-23T18:16:36.760693702Z   _____                               
+2021-09-23T18:16:36.760708002Z   /  _  \ __________ _________   ____  
+2021-09-23T18:16:36.760718002Z  /  /_\  \___   /  |  \_  __ \_/ __ \ 
+2021-09-23T18:16:36.760728002Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2021-09-23T18:16:36.760737502Z \____|__  /_____ \____/ |__|    \___  >
+2021-09-23T18:16:36.760748502Z         \/      \/                  \/ 
+2021-09-23T18:16:36.760758202Z 
+2021-09-23T18:16:36.760767202Z A P P   S E R V I C E   O N   L I N U X
+2021-09-23T18:16:36.760776403Z 
+2021-09-23T18:16:36.760785403Z Documentation: http://aka.ms/webapp-linux
+2021-09-23T18:16:36.760794703Z Python 3.8.6
+2021-09-23T18:16:36.760803803Z Note: Any data outside '/home' is not persisted
+2021-09-23T18:16:38.480157193Z Starting OpenBSD Secure Shell server: sshd.
+2021-09-23T18:16:38.632520420Z App Command Line not configured, will attempt auto-detect
+2021-09-23T18:16:38.634874536Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2021-09-23T18:16:40.815010385Z Cound not find build manifest file at '/home/site/wwwroot/oryx-manifest.toml'
+2021-09-23T18:16:40.816036292Z Could not find operation ID in manifest. Generating an operation id...
+2021-09-23T18:16:40.822648938Z Build Operation ID: 8c0c1f01-2a51-4949-8aec-865ee6de4e4d
+2021-09-23T18:16:42.690514575Z Oryx Version: 0.2.20210708.1, Commit: 6ceb6608673b94827bac111ef5ea01c216f92abb, ReleaseTagName: 20210708.1
+2021-09-23T18:16:42.706369685Z No framework detected; using default app from /opt/defaultsite
+2021-09-23T18:16:42.707532693Z Generating `gunicorn` command for 'application:app'
+2021-09-23T18:16:42.855179816Z Writing output script to '/opt/startup/startup.sh'
+2021-09-23T18:16:43.562284813Z WARNING: Could not find virtual environment directory /home/site/wwwroot/antenv.
+2021-09-23T18:16:43.563294320Z WARNING: Could not find package directory /home/site/wwwroot/__oryx_packages__.
+2021-09-23T18:16:54.021609235Z [2021-09-23 18:16:54 +0000] [35] [INFO] Starting gunicorn 20.1.0
+2021-09-23T18:16:54.028944684Z [2021-09-23 18:16:54 +0000] [35] [INFO] Listening at: http://0.0.0.0:8000 (35)
+2021-09-23T18:16:54.035162526Z [2021-09-23 18:16:54 +0000] [35] [INFO] Using worker: sync
+2021-09-23T18:16:54.046961304Z [2021-09-23 18:16:54 +0000] [37] [INFO] Booting worker with pid: 37
+2021-09-23T18:16:56.588089790Z 172.16.0.1 - - [23/Sep/2021:18:16:56 +0000] "GET /robots933456.txt HTTP/1.1" 404 232 "-" "HealthCheck/1.0"
+2021-09-23T18:16:56.723101146Z 172.16.0.1 - - [23/Sep/2021:18:16:56 +0000] "GET / HTTP/1.1" 200 0 "https://portal.azure.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+
+2021-09-23T18:17:56.586018103Z 172.16.0.1 - - [23/Sep/2021:18:17:56 +0000] "GET / HTTP/1.1" 200 0 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:01.332289499Z 172.16.0.1 - - [23/Sep/2021:18:18:01 +0000] "GET / HTTP/1.1" 200 0 "-" "ReadyForRequest/1.0 (LocalCache)"
+2021-09-23T18:18:01.353942141Z 172.16.0.1 - - [23/Sep/2021:18:18:01 +0000] "GET / HTTP/1.1" 304 0 "https://portal.azure.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:18:01.368050533Z 172.16.0.1 - - [23/Sep/2021:18:18:01 +0000] "GET / HTTP/1.1" 200 0 "-" "ReadyForRequest/1.0 (AppInit)"
+
+2021-09-23T18:18:02.151638779Z 172.16.0.1 - - [23/Sep/2021:18:18:02 +0000] "GET / HTTP/1.1" 200 0 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:07.564630324Z 172.16.0.1 - - [23/Sep/2021:18:18:07 +0000] "GET / HTTP/1.1" 200 0 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+2021-09-23T18:18:10.665088386Z 172.16.0.1 - - [23/Sep/2021:18:18:10 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+
+2021-09-23T18:17:58.131315450Z 
+2021-09-23T18:17:58.131379551Z   _____                               
+2021-09-23T18:17:58.131392651Z   /  _  \ __________ _________   ____  
+2021-09-23T18:17:58.131402151Z  /  /_\  \___   /  |  \_  __ \_/ __ \ 
+2021-09-23T18:17:58.131411551Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2021-09-23T18:17:58.131420751Z \____|__  /_____ \____/ |__|    \___  >
+2021-09-23T18:17:58.131430051Z         \/      \/                  \/ 
+2021-09-23T18:17:58.131439451Z 
+2021-09-23T18:17:58.131447751Z A P P   S E R V I C E   O N   L I N U X
+2021-09-23T18:17:58.131456051Z 
+2021-09-23T18:17:58.131464351Z Documentation: http://aka.ms/webapp-linux
+2021-09-23T18:17:58.131472752Z Python 3.8.6
+2021-09-23T18:17:58.131481052Z Note: Any data outside '/home' is not persisted
+2021-09-23T18:17:58.425500839Z Starting OpenBSD Secure Shell server: sshd.
+2021-09-23T18:17:58.532912066Z App Command Line not configured, will attempt auto-detect
+2021-09-23T18:17:58.535771085Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite
+2021-09-23T18:17:58.629782620Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2021-09-23T18:17:58.634815854Z Build Operation ID: |6TJjv0ls0fI=.ce294c81_
+2021-09-23T18:17:58.640177891Z Oryx Version: 0.2.20210708.1, Commit: 6ceb6608673b94827bac111ef5ea01c216f92abb, ReleaseTagName: 20210708.1
+2021-09-23T18:17:58.641178897Z Output is compressed. Extracting it...
+2021-09-23T18:17:58.642647807Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8d97ebe3c311129'...
+2021-09-23T18:18:03.218711686Z App path is set to '/tmp/8d97ebe3c311129'
+2021-09-23T18:18:04.034482843Z Detected an app based on Flask
+2021-09-23T18:18:04.606975702Z Generating `gunicorn` command for 'application:app'
+2021-09-23T18:18:05.105539276Z Writing output script to '/opt/startup/startup.sh'
+2021-09-23T18:18:05.637336668Z Using packages from virtual environment antenv located at /tmp/8d97ebe3c311129/antenv.
+2021-09-23T18:18:05.638346875Z Updated PYTHONPATH to ':/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages'
+2021-09-23T18:18:06.900262861Z [2021-09-23 18:18:06 +0000] [36] [INFO] Starting gunicorn 20.1.0
+2021-09-23T18:18:06.902469076Z [2021-09-23 18:18:06 +0000] [36] [INFO] Listening at: http://0.0.0.0:8000 (36)
+2021-09-23T18:18:06.903785084Z [2021-09-23 18:18:06 +0000] [36] [INFO] Using worker: sync
+2021-09-23T18:18:06.923006611Z [2021-09-23 18:18:06 +0000] [38] [INFO] Booting worker with pid: 38
+2021-09-23T18:18:11.894745503Z 172.16.0.1 - - [23/Sep/2021:18:18:11 +0000] "GET /robots933456.txt HTTP/1.1" 404 232 "-" "HealthCheck/1.0"
+2021-09-23T18:18:13.403190183Z 172.16.0.1 - - [23/Sep/2021:18:18:13 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:18.736669925Z 172.16.0.1 - - [23/Sep/2021:18:18:18 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:24.645194493Z 172.16.0.1 - - [23/Sep/2021:18:18:24 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:30.196446639Z 172.16.0.1 - - [23/Sep/2021:18:18:30 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:35.550131471Z 172.16.0.1 - - [23/Sep/2021:18:18:35 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:40.995731402Z 172.16.0.1 - - [23/Sep/2021:18:18:40 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:46.324950295Z 172.16.0.1 - - [23/Sep/2021:18:18:46 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:51.724298043Z 172.16.0.1 - - [23/Sep/2021:18:18:51 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:18:57.136830770Z 172.16.0.1 - - [23/Sep/2021:18:18:57 +0000] "GET / HTTP/1.1" 200 7420 "-" "ms-rest-js/2.3.0 Node/v14.16.0 OS/(x64-Windows_NT-10.0.19042) vscode-azureappservice/0.23.0"
+
+2021-09-23T18:20:17.884944120Z 172.16.0.1 - - [23/Sep/2021:18:20:17 +0000] "GET / HTTP/1.1" 200 7420 "https://portal.azure.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.137400140Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/css/main.css HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.456714438Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/jquery.min.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.500305564Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/jquery.dropotron.min.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.661960781Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/css/fontawesome-all.min.css HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.668155929Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/browser.min.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.796012036Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/images/pic01.jpg HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.805984176Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/breakpoints.min.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.814303309Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/main.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.818711126Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/js/util.js HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:18.968802222Z 172.16.0.1 - - [23/Sep/2021:18:20:18 +0000] "GET /static/images/pic02.jpg HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.044064221Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/images/pic03.jpg HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.131095966Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/images/pic04.jpg HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.555776853Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/css/images/bg01.png HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.560369571Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/css/images/bg02.png HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.602006536Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/images/banner.jpg HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:19.610927172Z 172.16.0.1 - - [23/Sep/2021:18:20:19 +0000] "GET /static/css/images/bg03.png HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/main.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:20.412944756Z 172.16.0.1 - - [23/Sep/2021:18:20:20 +0000] "GET /static/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/fontawesome-all.min.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:20.418083276Z 172.16.0.1 - - [23/Sep/2021:18:20:20 +0000] "GET /static/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/static/css/fontawesome-all.min.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+2021-09-23T18:20:21.047663976Z 172.16.0.1 - - [23/Sep/2021:18:20:21 +0000] "GET /static/images/favicon.ico HTTP/1.1" 200 0 "https://luteriwebapp.azurewebsites.net/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+
+2021-09-23T18:20:29.905793513Z /tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+2021-09-23T18:20:29.905848814Z   warnings.warn(FSADeprecationWarning(
+2021-09-23T18:20:29.905862514Z [2021-09-23 18:20:29 +0000] [38] [ERROR] Error handling request /Attendees
+2021-09-23T18:20:29.905872714Z Traceback (most recent call last):
+2021-09-23T18:20:29.905883914Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2285, in _wrap_pool_connect
+2021-09-23T18:20:29.905894214Z     return fn()
+2021-09-23T18:20:29.905903814Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 363, in connect
+2021-09-23T18:20:29.905913814Z     return _ConnectionFairy._checkout(self)
+2021-09-23T18:20:29.905923414Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 773, in _checkout
+2021-09-23T18:20:29.905933114Z     fairy = _ConnectionRecord.checkout(pool)
+2021-09-23T18:20:29.905942714Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 492, in checkout
+2021-09-23T18:20:29.905952314Z     rec = pool._do_get()
+2021-09-23T18:20:29.905961514Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 139, in _do_get
+2021-09-23T18:20:29.905971114Z     self._dec_overflow()
+2021-09-23T18:20:29.905980314Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+2021-09-23T18:20:29.905990014Z     compat.raise_(
+2021-09-23T18:20:29.905999214Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+2021-09-23T18:20:29.906009014Z     raise exception
+2021-09-23T18:20:29.906018114Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 136, in _do_get
+2021-09-23T18:20:29.906027714Z     return self._create_connection()
+2021-09-23T18:20:29.906036914Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+2021-09-23T18:20:29.906046814Z     return _ConnectionRecord(self)
+2021-09-23T18:20:29.906056114Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 437, in __init__
+2021-09-23T18:20:29.906065814Z     self.__connect(first_connect_check=True)
+2021-09-23T18:20:29.906091214Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 657, in __connect
+2021-09-23T18:20:29.906102414Z     pool.logger.debug("Error on connect(): %s", e)
+2021-09-23T18:20:29.906113314Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+2021-09-23T18:20:29.906132014Z     compat.raise_(
+2021-09-23T18:20:29.906141414Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+2021-09-23T18:20:29.906150914Z     raise exception
+2021-09-23T18:20:29.906159914Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 652, in __connect
+2021-09-23T18:20:29.906169614Z     connection = pool._invoke_creator(self)
+2021-09-23T18:20:29.906178814Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+2021-09-23T18:20:29.906188314Z     return dialect.connect(*cargs, **cparams)
+2021-09-23T18:20:29.906197414Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 490, in connect
+2021-09-23T18:20:29.906206914Z     return self.dbapi.connect(*cargs, **cparams)
+2021-09-23T18:20:29.906216014Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+2021-09-23T18:20:29.906225614Z     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2021-09-23T18:20:29.906235014Z psycopg2.OperationalError: FATAL:  no pg_hba.conf entry for host "52.234.109.249", user "udacityadmin", database "techconfdb", SSL on
+2021-09-23T18:20:29.906244914Z FATAL:  SSL connection is required. Please specify SSL options and retry.
+2021-09-23T18:20:29.906254114Z 
+2021-09-23T18:20:29.906263114Z 
+2021-09-23T18:20:29.906272014Z The above exception was the direct cause of the following exception:
+2021-09-23T18:20:29.906281414Z 
+2021-09-23T18:20:29.906290414Z Traceback (most recent call last):
+2021-09-23T18:20:29.906299414Z   File "/opt/python/3.8.6/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 136, in handle
+2021-09-23T18:20:29.906309014Z     self.handle_request(listener, req, client, addr)
+2021-09-23T18:20:29.906318114Z   File "/opt/python/3.8.6/lib/python3.8/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+2021-09-23T18:20:29.906327714Z     respiter = self.wsgi(environ, resp.start_response)
+2021-09-23T18:20:29.906336714Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+2021-09-23T18:20:29.906346014Z     return self.wsgi_app(environ, start_response)
+2021-09-23T18:20:29.906354914Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+2021-09-23T18:20:29.906364414Z     response = self.handle_exception(e)
+2021-09-23T18:20:29.906384614Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+2021-09-23T18:20:29.906395514Z     reraise(exc_type, exc_value, tb)
+2021-09-23T18:20:29.906405514Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+2021-09-23T18:20:29.906415914Z     raise value
+2021-09-23T18:20:29.906425514Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+2021-09-23T18:20:29.906435314Z     response = self.full_dispatch_request()
+2021-09-23T18:20:29.906444514Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+2021-09-23T18:20:29.906454314Z     rv = self.handle_user_exception(e)
+2021-09-23T18:20:29.906463514Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+2021-09-23T18:20:29.906473314Z     reraise(exc_type, exc_value, tb)
+2021-09-23T18:20:29.906482414Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+2021-09-23T18:20:29.906498914Z     raise value
+2021-09-23T18:20:29.906508214Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+2021-09-23T18:20:29.906518114Z     rv = self.dispatch_request()
+2021-09-23T18:20:29.906527414Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+2021-09-23T18:20:29.906537414Z     return self.view_functions[rule.endpoint](**req.view_args)
+2021-09-23T18:20:29.912250519Z   File "/tmp/8d97ebe3c311129/app/routes.py", line 48, in attendees
+2021-09-23T18:20:29.912272719Z     attendees = Attendee.query.order_by(Attendee.submitted_date).all()
+2021-09-23T18:20:29.912283619Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3246, in all
+2021-09-23T18:20:29.912311919Z     return list(self)
+2021-09-23T18:20:29.912323619Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3405, in __iter__
+2021-09-23T18:20:29.912334119Z     return self._execute_and_instances(context)
+2021-09-23T18:20:29.912343719Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3426, in _execute_and_instances
+2021-09-23T18:20:29.912353719Z     conn = self._get_bind_args(
+2021-09-23T18:20:29.912366319Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3441, in _get_bind_args
+2021-09-23T18:20:29.912376319Z     return fn(
+2021-09-23T18:20:29.912385719Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3420, in _connection_from_session
+2021-09-23T18:20:29.912396019Z     conn = self.session.connection(**kw)
+2021-09-23T18:20:29.912405519Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1130, in connection
+2021-09-23T18:20:29.912427619Z     return self._connection_for_bind(
+2021-09-23T18:20:29.912441019Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1138, in _connection_for_bind
+2021-09-23T18:20:29.912451519Z     return self.transaction._connection_for_bind(
+2021-09-23T18:20:29.912461119Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 432, in _connection_for_bind
+2021-09-23T18:20:29.912470919Z     conn = bind._contextual_connect()
+2021-09-23T18:20:29.912480319Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2251, in _contextual_connect
+2021-09-23T18:20:29.912490119Z     self._wrap_pool_connect(self.pool.connect, None),
+2021-09-23T18:20:29.912499619Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2288, in _wrap_pool_connect
+2021-09-23T18:20:29.912509319Z     Connection._handle_dbapi_exception_noconnection(
+2021-09-23T18:20:29.912518619Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1554, in _handle_dbapi_exception_noconnection
+2021-09-23T18:20:29.912528519Z     util.raise_(
+2021-09-23T18:20:29.912537819Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+2021-09-23T18:20:29.916588623Z     raise exception
+2021-09-23T18:20:29.916605823Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2285, in _wrap_pool_connect
+2021-09-23T18:20:29.916616423Z     return fn()
+2021-09-23T18:20:29.916646923Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 363, in connect
+2021-09-23T18:20:29.916657423Z     return _ConnectionFairy._checkout(self)
+2021-09-23T18:20:29.916667023Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 773, in _checkout
+2021-09-23T18:20:29.916676823Z     fairy = _ConnectionRecord.checkout(pool)
+2021-09-23T18:20:29.916686423Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 492, in checkout
+2021-09-23T18:20:29.916696223Z     rec = pool._do_get()
+2021-09-23T18:20:29.916705523Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 139, in _do_get
+2021-09-23T18:20:29.916715223Z     self._dec_overflow()
+2021-09-23T18:20:29.916724523Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+2021-09-23T18:20:29.916734523Z     compat.raise_(
+2021-09-23T18:20:29.916743923Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+2021-09-23T18:20:29.916753723Z     raise exception
+2021-09-23T18:20:29.916778523Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 136, in _do_get
+2021-09-23T18:20:29.916790723Z     return self._create_connection()
+2021-09-23T18:20:29.916800223Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 308, in _create_connection
+2021-09-23T18:20:29.916809823Z     return _ConnectionRecord(self)
+2021-09-23T18:20:29.916818923Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 437, in __init__
+2021-09-23T18:20:29.916828523Z     self.__connect(first_connect_check=True)
+2021-09-23T18:20:29.916837923Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 657, in __connect
+2021-09-23T18:20:29.916852923Z     pool.logger.debug("Error on connect(): %s", e)
+2021-09-23T18:20:29.916862623Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+2021-09-23T18:20:29.916872423Z     compat.raise_(
+2021-09-23T18:20:29.916881423Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+2021-09-23T18:20:29.916891023Z     raise exception
+2021-09-23T18:20:29.916900023Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 652, in __connect
+2021-09-23T18:20:29.916909623Z     connection = pool._invoke_creator(self)
+2021-09-23T18:20:29.916918723Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+2021-09-23T18:20:29.916928423Z     return dialect.connect(*cargs, **cparams)
+2021-09-23T18:20:29.916937523Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 490, in connect
+2021-09-23T18:20:29.916947323Z     return self.dbapi.connect(*cargs, **cparams)
+2021-09-23T18:20:29.916956423Z   File "/tmp/8d97ebe3c311129/antenv/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+2021-09-23T18:20:29.916966323Z     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2021-09-23T18:20:29.916975723Z sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  no pg_hba.conf entry for host "52.234.109.249", user "udacityadmin", database "techconfdb", SSL on
+2021-09-23T18:20:29.916986023Z FATAL:  SSL connection is required. Please specify SSL options and retry.
+2021-09-23T18:20:29.916995623Z 
+2021-09-23T18:20:29.917004423Z (Background on this error at: http://sqlalche.me/e/e3q8)
+2021-09-23T18:20:29.909019016Z 172.16.0.1 - - [23/Sep/2021:18:20:29 +0000] "GET /Attendees HTTP/1.1" 500 0 "-" "-"
+2021-09-23T18:20:30.960413509Z 172.16.0.1 - - [23/Sep/2021:18:20:30 +0000] "GET /favicon.ico HTTP/1.1" 404 232 "https://luteriwebapp.azurewebsites.net/Attendees" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"
+
